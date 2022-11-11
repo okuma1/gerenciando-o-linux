@@ -60,7 +60,7 @@ done
 
 function pingar()
 {
-IP="8.8.8"
+IP="8.8.8.8"
 PING="ping -c3 $IP"
 $PING
     if [ $? -eq 0 ] #$? = 0 verdadeiro (resultado deu certo) / outro numero = false
